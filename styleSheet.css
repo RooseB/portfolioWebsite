@@ -1,0 +1,106 @@
+@charset "utf-8";
+/**global tings**/
+body{
+    background-color:rgb(65, 64, 64);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+/**top menu container**/
+#searchBarContainer{
+    background-color: aquamarine;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#searchBarContainer ul li{
+    float:left;
+    width:200px;
+    text-align: center;
+}
+
+#searchBarContainer ul li a{
+    display: block;
+    padding: 8px;
+    margin:10px;
+}
+
+#searchBarContainer ul li a:hover{
+    background-color: rgb(81, 199, 160);
+    color:black;
+}
+
+#searchBarContainer ul li a:active{
+    background-color: rgb(81, 199, 160);
+    color:black;
+}
+
+#searchBarContainer ul li a:visited{
+    background-color: rgb(81, 199, 160);
+    color:purple;
+}
+
+#searchBarContainer ul li a:link{
+    color:black;
+    text-decoration: none;
+}
+
+#nameSlot{
+    padding-right: 15%;
+    padding-top: 8px; 
+    color:black;
+}
+
+#searchBarContainer #nameSlot{
+    text-align: center;
+    width:250px;
+}
+
+/*table stuff*/
+#JavaTable, #PythonTable, #WebDevTable{
+    display: none;
+
+}
+table, td{
+    border:1px solid white;
+} 
+
+a{
+    color:magenta;
+}
+/*scrollbar*/
+body::-webkit-scrollbar{
+    width:0.1rem;
+}
+
+body::-webkit-scrollbar-track{
+    background:aquamarine;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#6649b8;
+}
+
+/*random things*/
+#FacebookLink{
+    color: white;
+}
+
+button{
+    background-color: rgb(65, 64, 64);
+    border:none;
+}
+
+button h3{
+    color:white;
+}
+
+button:hover{
+    background-color: rgb(43, 42, 42);
+}
